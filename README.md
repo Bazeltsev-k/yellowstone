@@ -33,7 +33,8 @@ scripts/make.sh
 #### `populate_header.sh`
 Will create `main.h` file with all header files from `classes` folder included in it.
 Uses `header_template.h` as a template. Put all needed libraries in this file and run this script whenever you are adding/renaming `.h` files in `classes` folder.
-<mark>Note: For now this script can't take order of header files into an account. So you'll have to go and place them in main.hpp file in order that you need them.</mark>
+
+**Note: For now this script can't take order of header files into an account. So you'll have to go and place them in main.hpp file in order that you need them.**
 
 #### `make.sh`
 Populates `Makefile`'s `SOURCES` variable with `main.cpp` file from root and all `.cpp` files from `classes` folder; populates `EXECUTABLE` variable with name of the root folder; runs `make` and `make clean commands`.

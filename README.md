@@ -1,6 +1,14 @@
 # Yellowstone game engine
 
 > Game engine based on Vulkan API
+
+## Goals (roadmap)
+> Currently the goal is to just make it running, load simple objects and from there learn more about graphics pipeline.
+- [x] Creating simple window
+- [ ] Loading 3d objects into window
+
+*Also one of the goals is to NOT use any advanced IDE like XCode or VisualStudio and maintain proper Makefile instead.*
+
 ## Prerequisites:
 
 - VulkanSDK 1.2.189.0 ([Download here](https://vulkan.lunarg.com/sdk/home))
